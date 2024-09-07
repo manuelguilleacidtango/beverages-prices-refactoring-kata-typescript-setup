@@ -21,6 +21,6 @@ For this purpose, we have a series of tests we can rely on during the refactor. 
 
 ## Setup
 
-1. Clone this repo and open it with IntelliJ
+1. Clone this repo
 2. Install dependencies with `npm i`
 3. Run tests with `npm test`
