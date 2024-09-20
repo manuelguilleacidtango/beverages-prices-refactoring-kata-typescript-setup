@@ -1,7 +1,6 @@
 import { Beverage } from "./Beverage.js"
+import { Money } from "./Money.js"
 
-export class Coffee implements Beverage {
-  price(): number {
-    return 1.2
-  }
+export class Coffee extends Beverage {
+  basePrice: Money = Money.createNew(1.2)
 }
